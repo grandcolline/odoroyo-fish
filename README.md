@@ -7,5 +7,3 @@ my fish prompt
 ```
 $ fisher grandcolline/odoroyo-fish
 ```
-
-

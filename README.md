@@ -7,3 +7,7 @@ my fish prompt
 ```
 $ fisher grandcolline/odoroyo-fish
 ```
+
+## preview
+
+![image](https://github.com/grandcolline/odoroyo-fish/blob/images/ScreenShot.png)

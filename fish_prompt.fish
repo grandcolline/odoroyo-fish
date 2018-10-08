@@ -36,9 +36,9 @@ function prompt_status -d "the symbols for a non zero exit status, root and back
 	end
 end
 
-# 
+#
 # ディレクトリ表示
-# 
+#
 function prompt_dir -d "Display the current directory"
 	set_color -b 'green'
 	set_color 'white'

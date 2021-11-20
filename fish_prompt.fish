@@ -58,6 +58,7 @@ function prompt_git -d "Display the current git state"
 		echo -n ' '
 		echo -n $branch
 		echo -n $diff_display
+		echo -n ' '
 		if [ "$dirty_change" -eq 1 ]
 			set_color 'yellow'
 			echo -n "●"
@@ -69,7 +70,6 @@ function prompt_git -d "Display the current git state"
 		if [ "$dirty_change" -eq 1 ]; or [ "$dirty_add" -eq 1 ]
 			echo -n ' '
 		end
-		echo -n ' '
 	end
 end
 
@@ -97,7 +97,6 @@ function fish_prompt
 	prompt_status
 	set_color -b normal
 	set_color $bg_color
-	echo -n '⮀ '
+	echo -n ' '
 	set_color normal
 end
-
